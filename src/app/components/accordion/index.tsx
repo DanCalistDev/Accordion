@@ -28,11 +28,11 @@ export const Accordion = () => {
 
     return (
           <div className="wrapper">
-            <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>Ativar Seleção Múltipla</button>
+            <button onClick={() => setEnableMultiSelection(!enableMultiSelection)} className={enableMultiSelection ? "buttonActive" : ""}>Ativar Seleção Múltipla</button>
             <div className="accordian">
                 {
                     data && data.length > 0 ?
-                    data.map(dataItem => <div>
+                    data.map(dataItem => <div key={dataItem.id}>
                          <div className="item">
                             <h3 onClick={
                                 enableMultiSelection 

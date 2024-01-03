@@ -16,15 +16,21 @@
       font-size: 20px;
       cursor: pointer;
   }
+
+  .wrapper button.buttonActive {
+    background-color: #4CAF50;
+  }
   
   .accordian {
     width: 500px;
+    
   }
   
   .item {
     background: #614101;
     margin-bottom: 10px;
     padding: 10px 20px;
+    border-radius: 8px;
   }
   
   .title {
