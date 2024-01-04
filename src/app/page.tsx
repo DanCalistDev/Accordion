@@ -1,10 +1,10 @@
-import { Accordion } from "./components/accordion";
+
 import "./style.css";
 
 export default function Home() {
   return (
     <div className="App">
-      <Accordion />
+      <h1>Home</h1>
     </div>
   )
 }

@@ -39,9 +39,10 @@
     justify-content: space-between;
     place-content: center;
     cursor: pointer;
+    gap: 5px
   }
   
   .content {
-    color: #ffffff;
+    color: #000;
     height: auto;
   }
